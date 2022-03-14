@@ -89,7 +89,7 @@ ul li {
 
 .firstContent {
     overflow: hidden;
-    background-image: url("../assets/images/background-filter.png");
+    background-image: url("");
     background-position: 50% 0;
     background-size: cover;
     height: 100vh;
