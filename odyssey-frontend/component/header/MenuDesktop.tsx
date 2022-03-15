@@ -1,9 +1,8 @@
-   
 import {Container, Icon, Stack, SvgIcon, Typography} from "@mui/material";
 import {NextRouter, useRouter} from "next/router";
 import {Link as ScrollLink} from "react-scroll";
 
-export const odysseyMenuData = [
+export const frgMenuData = [
     {
         href: "/",
         tabContent: "Mint"
@@ -39,7 +38,7 @@ function MenuDesktop() {
                     justifyItems="center"
                 >
                     {
-                        odysseyMenuData.map((menu, index) => (
+                        frgMenuData.map((menu, index) => (
                             <Typography variant="h4" color={'white'} component={ScrollLink} to={menu.tabContent} spy
                                         smooth offset={-100} sx={{
                                 cursor: "pointer",
