@@ -4,6 +4,7 @@ import {Box, color, styled} from "@mui/system";
 import MenuMobile from "./MenuMobile";
 import {useRouter} from "next/router";
 import Image from "next/image";
+import ConnectMenu from "./ConnectButton";
 
 
 export const DRAWER_WIDTH = 280;
@@ -53,7 +54,7 @@ function MenuBar(): JSX.Element {
                 </Container>
                 <Hidden mdDown>
                     <Stack width={600} paddingRight={6} direction={"row"} spacing={2}>
-                       {/*<ConnectButton/>*/} 
+                       <ConnectMenu/>
                     </Stack>
                 </Hidden>
 
