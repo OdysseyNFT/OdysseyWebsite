@@ -5,6 +5,8 @@ import MenuMobile from "./MenuMobile";
 import {useRouter} from "next/router";
 import Image from "next/image";
 import ConnectMenu from "./ConnectButton";
+import { theme } from '../../styles/Theme'
+import { ThemeProvider } from "@emotion/react";
 
 
 export const DRAWER_WIDTH = 280;
@@ -29,7 +31,7 @@ const ToolbarStyle = styled(Toolbar)(({theme}) => ({
 function MenuBar(): JSX.Element {
 
     return (
-        <AppBar position="sticky" elevation={0} sx={{
+            <AppBar position="sticky" elevation={0} sx={{
             justifyContent: "space-between", background: 'transparent'
         }}>
             <ToolbarStyle>
@@ -44,10 +46,10 @@ function MenuBar(): JSX.Element {
                     maxWidth="xl"
                 >
                     <Hidden mdDown>
-                        {/*<MenuDesktop/>*/}
+                        <MenuDesktop/>
                     </Hidden>
                     <Hidden mdUp>
-                        {/*<MenuMobile/>*/}
+                        <MenuMobile/>
                     </Hidden>
 
 

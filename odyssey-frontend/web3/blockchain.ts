@@ -1,7 +1,7 @@
 export enum Networks {
     LOCALHOST = 31337,
     MAINNET = 1,
-    RINKEBY = 4,
+    FTM_TESTNET = 4002,
 }
 
-export const DEFAULD_NETWORK = Networks.LOCALHOST;
+export const DEFAULD_NETWORK = Networks.MAINNET;

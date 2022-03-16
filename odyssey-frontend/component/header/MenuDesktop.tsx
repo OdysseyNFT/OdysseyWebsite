@@ -8,20 +8,12 @@ export const frgMenuData = [
         tabContent: "Mint"
     },
     {
-        href: "/about",
-        tabContent: "About"
+        href: "/types",
+        tabContent: "Types"
     },
     {
-        href: "/roadmap",
-        tabContent: "Roadmap"
-    },
-    {
-        href: "/faq",
-        tabContent: "FAQ"
-    },
-    {
-        href: "/team",
-        tabContent: "Team"
+        href: "/monsters",
+        tabContent: "Monsters"
     }
 ]
 
