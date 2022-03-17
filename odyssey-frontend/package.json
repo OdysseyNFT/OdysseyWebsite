@@ -1,6 +1,6 @@
 {
-  "name": "VaderNFT",
-  "author": "Agonist",
+  "name": "OdysseyDapp",
+  "author": "Neuromancer",
   "private": true,
   "scripts": {
     "dev": "next dev",
