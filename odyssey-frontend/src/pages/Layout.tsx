@@ -50,7 +50,18 @@ const Layout = ({children}: LayoutProps) => {
         <Box height="100vh" display="flex" flexDirection="column">
             <Head>
                 <title>Odyssey Mint Central</title>
-               
+                <meta name="" content="Odyssey Mint Central"/>
+                <link rel="icon" href="/favicon.ico"/>
+
+                <link rel="stylesheet" href="/fonts/KeepCalm.css"/>
+
+                <meta name="twitter:card" content="summary"/>
+                <meta name="twitter:site" content="@odyssey_bsc"/>
+                <meta name="twitter:title" content="Odyssey"/>
+                <meta name="twitter:description"
+                      content="This is where you summon OdysseyNFT Monsters."/>
+                <meta name="twitter:image"
+                      content=""/>
             </Head>
 
             <MenuBar/>
