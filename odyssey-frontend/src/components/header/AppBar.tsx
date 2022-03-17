@@ -55,7 +55,7 @@ function MenuBar(): JSX.Element {
                 </Container>
                 <Hidden mdDown>
                     <Stack width={600} paddingRight={6} direction={"row"} spacing={2}>
-                        <VaderButton/>
+                       
                         <ConnectButton/>
                     </Stack>
                 </Hidden>

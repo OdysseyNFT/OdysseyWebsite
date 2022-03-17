@@ -32,10 +32,10 @@ const Home: NextPage = () => {
             <Stack sx={{
                 background: 'radial-gradient(ellipse at center left, #ff9ddb 10%, #3de7fc 70%)'
             }}>
-                <RoadmapSection/>
-                <CollectionSection/>
-                <FAQSection/>
-                <TeamSection/>
+                {/* <RoadmapSection/>
+                    <CollectionSection/>
+                    <FAQSection/>
+                    <TeamSection/> */}
             </Stack>
 
 
