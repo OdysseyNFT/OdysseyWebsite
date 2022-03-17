@@ -67,3 +67,5 @@ function MenuBar(): JSX.Element {
 
 }
 
+export default MenuBar
+
