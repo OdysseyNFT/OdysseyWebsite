@@ -20,7 +20,7 @@ function AboutSection() {
                 <Stack paddingBottom={12}>
                     <Typography textAlign={"center"} variant={"h1"}
                                 color={Custom.vaderLightBlue} paddingBottom={4}
-                                sx={{textShadow: '3px 3px 3px #ff00ba'}}>
+                                sx={{textShadow: '3px 3px 3px #26a4fe'}}>
                         MINT
                     </Typography>
 
