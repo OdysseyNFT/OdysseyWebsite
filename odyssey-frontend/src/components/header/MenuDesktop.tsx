@@ -8,21 +8,14 @@ export const frgMenuData = [
         tabContent: "Mint"
     },
     {
-        href: "/about",
+        href: "/collection",
         tabContent: "Types"
     },
     {
         href: "/roadmap",
-        tabContent: "Roadmap"
-    },
-    {
-        href: "/faq",
-        tabContent: "FAQ"
-    },
-    {
-        href: "/team",
-        tabContent: "Team"
+        tabContent: "My Monsters"
     }
+
 ]
 
 function MenuDesktop() {

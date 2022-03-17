@@ -28,10 +28,7 @@ const Home: NextPage = () => {
         <Stack marginTop={{lg: -20, xs: -10}}>
             <HeadSection/>
             <AboutSection/>
-
-
-
-                <CollectionSection/>
+            <CollectionSection/>
                 {/*
                     <FAQSection/>
                     <TeamSection/> */}
