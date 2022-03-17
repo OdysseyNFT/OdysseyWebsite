@@ -49,7 +49,7 @@ const Layout = ({children}: LayoutProps) => {
     return (
         <Box height="100vh" display="flex" flexDirection="column">
             <Head>
-                <title>Vader NFT</title>
+                <title>Odyssey Mint Central</title>
                 <meta name="" content="Vader NFT"/>
                 <link rel="icon" href="/favicon.ico"/>
 
