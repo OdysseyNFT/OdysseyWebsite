@@ -1,7 +1,7 @@
 import {NextPage} from "next";
 import {Box, Grid, Stack, Typography} from "@mui/material";
 import Image from "next/image";
-import V1 from "../../../public/v1.webp";
+import V1 from "../../../public/air-monster.png";
 import V2 from "../../../public/v2.webp";
 import V3 from "../../../public/v3.webp";
 import V4 from "../../../public/v4.webp";
@@ -19,9 +19,9 @@ function CollectionSection() {
 
     return (
 
-        <Stack alignItems="center" spacing={3} paddingTop={18} paddingBottom={6} paddingX={2}>
+        <Stack alignItems="center" spacing={3} paddingTop={18} paddingBottom={6} paddingX={2} sx={{background: '#000'}}>
             <Typography variant={"h1"} color={Custom.vaderPink} sx={{textShadow: '3px 3px 3px #26a4fe'}}>
-                COLLECTION
+                TYPES
             </Typography>
 
             <Swiper
@@ -40,15 +40,15 @@ function CollectionSection() {
                         spaceBetween: 20,
                     },
                     768: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetween: 40,
                     },
                     1024: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetween: 50,
                     },
                     1600: {
-                        slidesPerView: 3,
+                        slidesPerView: 1,
                         spaceBetween: 50,
                     },
                 }}
@@ -56,12 +56,36 @@ function CollectionSection() {
                 modules={[Pagination, FreeMode]}
                 className="mySwiper"
             >
-                <SwiperSlide> <Image src={V1} width={250} height={250}/></SwiperSlide>
-                <SwiperSlide><Image src={V2} width={250} height={250}/></SwiperSlide>
-                <SwiperSlide><Image src={V3} width={250} height={250}/></SwiperSlide>
-                <SwiperSlide> <Image src={V4} width={250} height={250}/></SwiperSlide>
-                <SwiperSlide> <Image src={V5} width={250} height={250}/></SwiperSlide>
-                <SwiperSlide> <Image src={V6} width={250} height={250}/></SwiperSlide>
+                <SwiperSlide>
+                    <Stack alignItems="center" spacing={3} paddingTop={6} paddingBottom={6} paddingX={2}>
+                        <Image src={V1} width={250} height={250}/>
+                    </Stack>
+                </SwiperSlide>
+                <SwiperSlide>
+                <Stack alignItems="center" spacing={3} paddingTop={6} paddingBottom={6} paddingX={2}>
+                    <Image src={V1} width={250} height={250}/>
+                </Stack>
+                </SwiperSlide>
+                <SwiperSlide>
+                <Stack alignItems="center" spacing={3} paddingTop={6} paddingBottom={6} paddingX={2}>
+                    <Image src={V1} width={250} height={250}/>
+                </Stack>
+                </SwiperSlide>
+                <SwiperSlide>
+                <Stack alignItems="center" spacing={3} paddingTop={6} paddingBottom={6} paddingX={2}>
+                    <Image src={V1} width={250} height={250}/>
+                </Stack>
+                </SwiperSlide>
+                <SwiperSlide>
+                <Stack alignItems="center" spacing={3} paddingTop={6} paddingBottom={6} paddingX={2}>
+                    <Image src={V1} width={250} height={250}/>
+                </Stack>
+                </SwiperSlide>
+                <SwiperSlide>
+                <Stack alignItems="center" spacing={3} paddingTop={6} paddingBottom={6} paddingX={2}>
+                    <Image src={V1} width={250} height={250}/>
+                </Stack>
+                </SwiperSlide>
             </Swiper>
 
         </Stack>

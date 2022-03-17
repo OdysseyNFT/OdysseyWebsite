@@ -29,14 +29,13 @@ const Home: NextPage = () => {
             <HeadSection/>
             <AboutSection/>
 
-            <Stack sx={{
-                background: 'radial-gradient(ellipse at center left, #ff9ddb 10%, #3de7fc 70%)'
-            }}>
-                {/* <RoadmapSection/>
-                    <CollectionSection/>
+
+
+                <CollectionSection/>
+                {/*
                     <FAQSection/>
                     <TeamSection/> */}
-            </Stack>
+
 
 
 

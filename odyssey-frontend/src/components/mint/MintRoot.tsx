@@ -48,9 +48,9 @@ function MintRoot() {
 
     return (
         <Stack alignItems="center" spacing={3}>
-            <Typography variant={"h3"} color={Custom.vaderYellow}
+            <Typography variant={"h3"} color={Custom.vaderBlue}
                         sx={{textShadow: '3px 3px 3px #26a4fe'}}>{app.currentMinted} /
-                55555 minted</Typography>
+                5555 MINTED</Typography>
             <Stack direction={"row"} spacing={2} alignItems="center">
                 <Fab size="small" aria-label="remove" onClick={mintMinus}
                      sx={{backgroundColor: Custom.vaderDarkPink}}>
@@ -74,7 +74,7 @@ function MintRoot() {
                             background: 'linear-gradient(to right, #26a4fe 40%, #3de7fc 95%)'
                         }}>
                     <Typography color={"white"}>
-                        Approve USDV
+                        Approve BNB
                     </Typography>
                 </Button>
                 }
@@ -86,7 +86,7 @@ function MintRoot() {
                             background: 'linear-gradient(to right, #26a4fe 40%, #3de7fc 95%)'
                         }}>
                     <Typography color={"white"}>
-                        Mint for {app.mintTotalPrice.toFixed(0)} USDV
+                        Mint for {app.mintTotalPrice.toFixed(0)} BNB
                     </Typography>
                 </Button>
                 }
