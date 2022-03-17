@@ -33,7 +33,7 @@ function Footer() {
 
 
             <Typography textAlign={"center"} variant={"caption"} color={"white"}>
-                Copyright 2022 invaders.army<br/>
+                Copyright 2022 OdysseyNFT<br/>
                 All trademark and copyright belong to their respective owners.<br/>
                 Project built on Binance Smart Chain
             </Typography>

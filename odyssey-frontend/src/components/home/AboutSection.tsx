@@ -41,22 +41,6 @@ function AboutSection() {
             }
 
 
-            <Hidden mdDown>
-                <Grid container rowSpacing={1} columnSpacing={{xs: 1, sm: 2, md: 3}} maxWidth={800}>
-
-
-
-
-                </Grid>
-            </Hidden>
-
-            <Hidden mdUp>
-                <Stack paddingX={2} spacing={2} paddingBottom={3}>
-
-                </Stack>
-
-
-            </Hidden>
 
 
         </Stack>
