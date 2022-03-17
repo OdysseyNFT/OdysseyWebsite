@@ -39,39 +39,7 @@ const Home: NextPage = () => {
             </Stack>
 
 
-            <Dialog
-                open={open}
-                onClose={() => setOpen(false)}
-                PaperProps={{
-                    sx: {
-                        bgcolor: "white",
-                        backdropFilter: "blur(10px)",
-                    },
-                }}
-            >
-                <DialogContent sx={{background: 'linear-gradient(12deg, #26a4fe 20%, #ff9ddb 70%)'}}>
-                    <Stack justifyContent="center" spacing={2} alignItems="center" width={300}>
-                        <Typography color={"white"} variant={"h3"}>Thank you for minting</Typography>
-                        <Typography color={"white"} variant={"body1"} textAlign={"center"}>
-                            Help us to recruit more InVaders by sharing on twitter
-                        </Typography>
 
-
-                        <TwitterShareButton title="I just minted NFT from the inVADERs Collection /▼皿▼\
-                                                100% of the funds raised will be used to purchase $VADER token and distribute it back to NFT holders on December 20, 2022.
-                                                Basically free mints for the community! @invaders_army
-                                                Mint yours at invaders.army"
-
-                                            url="https://www.invaders.army/">
-                            <TwitterIcon size={64} round={true}/>
-
-                        </TwitterShareButton>
-
-                        <Button onClick={() => setOpen(false)}>No Thanks</Button>
-
-                    </Stack>
-                </DialogContent>
-            </Dialog>
 
         </Stack>
 

@@ -11,7 +11,7 @@ function Footer() {
 
     return (
         <Stack direction="column" justifyContent="center" height="100%"
-               alignItems="center" paddingY={3} spacing={3} sx={{backgroundColor: Custom.vaderPink}}>
+               alignItems="center" paddingY={3} spacing={3} sx={{backgroundColor: Custom.vaderBlue}}>
 
 
             <Typography textAlign={"center"} variant={"h3"} color={"white"}>
@@ -35,9 +35,8 @@ function Footer() {
             <Typography textAlign={"center"} variant={"caption"} color={"white"}>
                 Copyright 2022 invaders.army<br/>
                 All trademark and copyright belong to their respective owners.<br/>
-                Project built on
+                Project built on Binance Smart Chain
             </Typography>
-            <Image src={eth}/>
 
         </Stack>
     )

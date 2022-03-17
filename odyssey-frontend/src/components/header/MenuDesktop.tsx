@@ -9,7 +9,7 @@ export const frgMenuData = [
     },
     {
         href: "/about",
-        tabContent: "About"
+        tabContent: "Types"
     },
     {
         href: "/roadmap",

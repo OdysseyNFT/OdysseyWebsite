@@ -2,6 +2,7 @@ import {NextPage} from "next";
 import {Hidden, Stack, Typography} from "@mui/material";
 import Image from "next/image";
 import PIC from "../../../public/fantasy-land.jpg";
+import VID from "../../../public/portal2.mp4";
 import {Box} from "@mui/system";
 import {useWeb3Context} from "../../web3/web3-context";
 import ReactPlayer from "react-player";
