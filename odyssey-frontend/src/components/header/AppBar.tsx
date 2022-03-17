@@ -4,7 +4,7 @@ import {Box, color, styled} from "@mui/system";
 import MenuMobile from "./MenuMobile";
 import {useRouter} from "next/router";
 import ConnectButton from "./ConnectButton";
-import VADER from "../../../public/invaders-logo.png";
+import VADER from "../../../public/logo_title_01.png";
 import Image from "next/image";
 import VaderButton from "./VaderButton";
 
@@ -36,7 +36,7 @@ function MenuBar(): JSX.Element {
             <ToolbarStyle>
                 <Hidden mdDown>
                     <Stack width={600} paddingLeft={6}>
-                        <Stack height={30} width={140}>
+                        <Stack height={60} width={120}>
                             <Image src={VADER}/>
                         </Stack>
                     </Stack>

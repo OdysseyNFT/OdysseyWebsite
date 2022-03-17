@@ -20,13 +20,13 @@ function Footer() {
             </Typography>
 
             <Stack direction={"row"} alignItems="center" justifyContent="center" spacing={3} paddingY={5}>
-                <a href={"https://twitter.com/invaders_army"} target="_blank" rel="noreferrer">
+                <a href={"https://twitter.com/Odyssey_BSC"} target="_blank" rel="noreferrer">
                     <Image src={twitter} width={72} height={72}/>
                 </a>
-                <a href={"https://discord.com/invite/vaderprotocol"} target="_blank" rel="noreferrer">
+                <a href={"https://discord.gg/FwVZHbfzxQ"} target="_blank" rel="noreferrer">
                     <Image src={discord} width={72} height={72}/>
                 </a>
-                <a href={"https://t.me/vaderprotocol"} target="_blank" rel="noreferrer">
+                <a href={"https://t.me/odysseybsc"} target="_blank" rel="noreferrer">
                     <Image src={telegram} width={72} height={72}/>
                 </a>
             </Stack>
