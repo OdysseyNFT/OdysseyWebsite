@@ -5,8 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ConnectButton from "./ConnectButton";
 import {Link as ScrollLink} from "react-scroll/modules";
 import Image from "next/image";
-import VADER from "../../../public/vader_logo.png";
-
+import VADER from "../../../public/logo_title_02.png";
 
 function MenuMobile() {
     const [state, setState] = useState(false);
@@ -30,6 +29,7 @@ function MenuMobile() {
             <Drawer
                 anchor={'right'}
                 open={state}
+
                 onClose={() => toggleDrawer()}
             >
 
@@ -37,7 +37,7 @@ function MenuMobile() {
                        spacing={5}
                        justifyItems="center"
                        flex={1}>
-                    <Stack height={30} width={140}>
+                    <Stack height={80} width={150}>
                         <Image src={VADER}/>
                     </Stack>
 
