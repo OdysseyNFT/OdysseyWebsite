@@ -2,6 +2,7 @@ import {NextPage} from "next";
 import {Stack, Typography} from "@mui/material";
 import CircleIcon from '@mui/icons-material/Circle';
 import {Custom} from "../../styles/Theme";
+import Typist from 'react-typist';
 
 function RoadmapSection() {
 

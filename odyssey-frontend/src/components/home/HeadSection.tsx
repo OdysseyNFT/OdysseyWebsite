@@ -4,6 +4,8 @@ import Image from "next/image";
 import {Box} from "@mui/system";
 import {useWeb3Context} from "../../web3/web3-context";
 import ReactPlayer from "react-player";
+import Typist from 'react-typist';
+import {Custom} from "../../styles/Theme";
 
 function HeadSection() {
     const {connected} = useWeb3Context();
@@ -17,19 +19,19 @@ function HeadSection() {
                 zIndex: -1
             }}
             >
-                <video autoPlay loop muted>
+                <video autoPlay loop muted width="100%">
                     <source src="./portal2.mp4" type="video/mp4"/>
                 </video>
             </Box>
-            <Hidden mdDown>
+           
 
-                <Stack alignItems={"center"} width={600}
-                       marginRight={{md: 10, lg: 20, xl: 30}} marginTop={{md: 10, lg: 20, xl: 40}}
+                <Stack  alignItems="center" id="Mint" width={400}
+                       marginTop={{md: 10, lg: 20, xl: 40}}
                        paddingY={4} spacing={2}>
                   
                 </Stack>
 
-            </Hidden>
+            
 
         </Stack>
     )
