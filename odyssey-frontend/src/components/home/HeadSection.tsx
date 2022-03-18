@@ -26,9 +26,7 @@ function HeadSection() {
                 <Stack alignItems={"center"} width={600}
                        marginRight={{md: 10, lg: 20, xl: 30}} marginTop={{md: 10, lg: 20, xl: 40}}
                        paddingY={4} spacing={2}>
-
-
-
+                  
                 </Stack>
 
             </Hidden>

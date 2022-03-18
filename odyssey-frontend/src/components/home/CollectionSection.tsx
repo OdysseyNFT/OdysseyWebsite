@@ -21,7 +21,7 @@ function CollectionSection() {
 
         <Stack alignItems="center" spacing={3} paddingTop={10} paddingBottom={6} paddingX={2} sx={{background: '#000'}}>
             <Typography variant={"h1"} color={Custom.vaderLightBlue} sx={{textShadow: '3px 3px 3px #26a4fe'}}>
-                TYPES
+                MONSTERS
             </Typography>
 
             <Swiper

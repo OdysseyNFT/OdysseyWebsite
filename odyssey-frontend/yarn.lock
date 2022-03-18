@@ -1758,7 +1758,7 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -4369,6 +4369,14 @@ react-transition-group@^4.4.0, react-transition-group@^4.4.2:
     dom-helpers "^5.0.1"
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
+
+react-typing-text@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-typing-text/-/react-typing-text-1.0.4.tgz#34a5719f278dd742e963f0debbda900c9bd91d66"
+  integrity sha512-q8Oz6Nf22M6qNCkbXGAgcS5rbGN3n44AWy5nF4Za04g9KSIyVwPHQxFI5R7dI2yU2EdF7PTfFCDTmVXodzvigw==
+  dependencies:
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
 
 react@17.0.2:
   version "17.0.2"
