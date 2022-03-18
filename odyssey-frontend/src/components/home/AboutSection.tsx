@@ -19,7 +19,7 @@ function AboutSection() {
                       variant={"h3"} 
                       color={"white"}
                       textAlign={"center"}
-                      width={500}
+                      width={350}
                       paddingBottom={6}
                       >
                       <Typist avgTypingDelay={80}  cursor={{show: false}}  >
