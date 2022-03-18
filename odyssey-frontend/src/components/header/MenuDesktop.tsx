@@ -9,7 +9,7 @@ export const frgMenuData = [
     },
     {
         href: "/collection",
-        tabContent: "Types"
+        tabContent: "Monsters"
     },
     {
         href: "/roadmap",
